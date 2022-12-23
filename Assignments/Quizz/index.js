@@ -137,7 +137,12 @@ function addQuestions(quest){
    p.appendChild(score);
    q1.appendChild(head);
    q1.appendChild(p);
-   btn.setAttribute("id", "head");
+   var relbtn = document.createElement("button");
+   var name= document.createTextNode("Reload");
+   relbtn.appendChild(name);
+   relbtn.setAttribute("onclick","location.reload()")
+   relbtn.setAttribute("class","reload-btn")
+   q1.appendChild(relbtn);
    document.body.appendChild(q1); 
 
    }
