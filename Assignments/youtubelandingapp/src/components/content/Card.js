@@ -31,10 +31,10 @@ const handleMouseLeave =()=>{
 
 const boxStyle ={
 
-    transition : isHover ?" transform .2s" :"0",
-  
-    width : isHover ?"25%" :"20%",
-    height : isHover ?"60%" : "25%", 
+    transition : isHover ?"flex 0.3s ease-out":"0",
+    backgroundSize : "100%",
+    width : isHover ?"20%" :"20%",
+     height : isHover ? "auto" :"25%",
 
 } 
 
