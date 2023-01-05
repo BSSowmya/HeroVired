@@ -1,0 +1,255 @@
+.content{
+width :100%;
+height: 90%;
+/* background-color: blueviolet; */
+display: flex;
+align-items: center;
+
+
+}
+
+/* Track */
+
+::-webkit-scrollbar {
+    width: 8px;
+  }
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;  border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+    
+  }
+  
+
+.content-1{
+ /* background-color:rgb(247, 233, 233) */
+ width :15%;
+ height: 100%;
+ display: flex;
+align-items: center;
+flex-wrap: wrap;
+overflow-y: scroll;
+margin: 20px;
+
+}
+
+.content-1 >div{
+width :100%;
+height: 10%;
+margin-bottom: 2px;
+
+
+}
+.content-1 >div >button{
+width :100%;
+height :100%;
+border-radius: 7px;
+/* background-color: rgb(225, 231, 236); */
+border :transparent;
+display: flex;
+align-items: center;
+justify-content: start;
+cursor: pointer;
+background-color: white;
+font-size: medium;
+
+}
+
+.content-1 >div >button >i{
+ font-size: x-large;
+ margin-right: 50px;
+ margin-left: 5px;
+
+}
+
+.content-1 .signin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 15%;
+    width :100%;
+    
+}
+.signin >p{
+    text-align: center;
+    font-size: medium;
+}
+.content-1 .signin >button{
+    width: 50%;
+    height: 50%;
+    border-radius: 50px;
+
+}
+.content-1 .signin >button >i{
+    margin-right: 5px;
+}
+
+.content-1 .explore {
+    margin-top: 20px;
+    width :100%;
+    height: 100%;
+   
+
+}
+.content-1 .explore >p{
+    text-indent: 5px;
+    text-align: left;
+    font-size: large;
+
+}
+.content-1 .explore >div{
+height: 10%;
+margin-bottom: 2px;
+    
+}
+
+.content-1 .explore >div >button{
+    height :100%;
+    width: 100%;
+    border-radius: 7px;
+    border :transparent;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    cursor: pointer;
+    background-color: white;
+    font-size: medium;
+    
+    }
+
+    .content-1 .explore >div >button >i{
+        font-size: large;
+        margin-right: 50px;
+        margin-left: 5px;
+       
+       }
+.content-2{
+    /* background-color:rgb(160, 54, 54); */
+    width :80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  
+      
+   }
+
+   .content-2 >.content-header{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+   }
+   .content-header> div> button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: 0;
+    font-size: medium;
+   
+
+   }
+   
+   .content-2 >.content-main{
+    width:100%;
+    height: 90%;
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    overflow: scroll;
+
+   }
+.content-2 .card{
+    width:20%;
+    height: 25%;
+    cursor: pointer;
+    transition-delay: 10s;
+    padding-right: 20px;
+    padding-bottom: 150px;
+    transition-timing-function: ease-in-out;
+
+ 
+    /* background-color: azure; */
+
+}
+
+.card > .card-vid{
+    width: 100%;
+    height :100%;
+    border-radius: 10px;
+    border :0;
+    /* -webkit-mask-image: linear-gradient(rgb(17, 14, 14), transparent);
+    mask-image: linear-gradient(rgb(8, 8, 8) transparent); */
+    mask-image: linear-gradient(grey);
+    mask-repeat:no-repeat;
+    mask-size:cover;
+  
+}
+
+.card-vid >iframe{
+    border-radius: 10px;
+    border: 0;
+}
+
+.card > .card-content{
+ width: 100%;
+ height: 30%;
+ /* background-color: rgb(220, 210, 230); */
+ display: flex;
+ align-items: top;
+ flex-wrap: nowrap;
+
+}
+
+
+.card-content > .logo{
+    width :10%;
+    height :60%;
+    margin-right: 10px;
+   
+}
+
+.logo >img{
+    width: 100%;
+    height :100%;
+    border-radius: 30px;
+    margin: 5px;
+
+}
+
+.card-content >.description{
+    width :90%;
+    height: 100%;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    cursor: pointer;
+
+}
+
+.card-content >.description >.desc{
+    font-size: small;
+    text-overflow: ellipsis
+}
+
+.channel,.views{
+    font-size: small;
+    margin-top: 5px;
+    cursor: pointer;
+
+ 
+
+}
+
+
