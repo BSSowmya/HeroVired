@@ -82,8 +82,8 @@ useEffect(()=>{
     console.log(section3_div)
     let childofsection3 = section3_div.children
        for (let i=0 ;i<childofsection3.length;i++){
-
-        childofsection3[i].addEventListener("mouseenter",()=>{
+        if(childofsection3[i].className!='signin'){
+            childofsection3[i].addEventListener("mouseenter",()=>{
                 childofsection3[i].style.borderRadius="50%"
                 childofsection3[i].style.backgroundColor="rgb(247, 233, 233)"
 
@@ -95,6 +95,9 @@ useEffect(()=>{
             childofsection3[i].style.backgroundColor="white"
 
         })
+
+        }
+      
     }
 
 
@@ -120,7 +123,7 @@ return(
 <div className='section3'>
 <i class="fa fa-bullhorn" aria-hidden="true"></i>
 <i class="fa fa-bell-o" aria-hidden="true"></i>
-<div>
+<div className='signin'>
 <button >
     <i class="fa fa-user" aria-hidden="true"></i>
     sign in</button>

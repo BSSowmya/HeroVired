@@ -102,6 +102,7 @@ justify-content:end
     width: 100%;
     height: 100%;
     padding:5%;
+    cursor: pointer;
 }
 
 .section3 >div>button>i{
