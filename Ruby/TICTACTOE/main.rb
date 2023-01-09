@@ -68,10 +68,13 @@ end
         option = gets.chomp
         if option == "Y"
             game = Game.new
+            game.move
         elsif option == "N"
             puts "End of game"
+            play_again
         else
             puts "End of game"
+            play_again
         end
     end
  end
