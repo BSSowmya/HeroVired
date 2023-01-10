@@ -1,4 +1,4 @@
-rails new movie_project   ---- USED TO CREATE THE PROJECT PROJECT1
+rails new movie_project   ---- USED TO CREATE THE PROJECT MOVIE_PROJECT
 
 rails s 	     ---- USED TO RUN THE PROJECT
 
