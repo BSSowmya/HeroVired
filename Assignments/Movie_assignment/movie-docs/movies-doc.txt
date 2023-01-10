@@ -1,0 +1,20 @@
+rails new movie_project   ---- USED TO CREATE THE PROJECT PROJECT1
+
+rails s 	     ---- USED TO RUN THE PROJECT
+
+rails generate scaffold movie moviename:string moviedesc:string moviedir:string movielang:string  --- USED TO CREATE THE SCAFFOLDING OF MOVIE
+
+rails generate migration create_movies     ---- USED 	TO CREATE TABLE MOVIES
+
+rails db:migrate   -- USED FOR THE MIGRATION OF DB
+
+rails routes --expanded     -- GIVES THE LIST OF API
+
+
+
+
+
+
+
+
+
